@@ -11,7 +11,7 @@ class MailjetClientSpec extends ObjectBehavior
 {
     function let()
     {
-        $this->beConstructedWith('api_key1', 'api_secret', false);
+        $this->beConstructedWith('api_key', 'api_secret', false);
     }
 
 
