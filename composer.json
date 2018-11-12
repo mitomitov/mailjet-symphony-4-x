@@ -1,0 +1,44 @@
+{
+    "name": "mailjet2/mailjet-bundle2",
+    "description": "Symfony bundle for Mailjet API V3",
+    "type": "symfony-bundle",
+    "homepage": "https://github.com/mailjet/mailjetBundle",
+    "license": "MIT",
+    "keywords": [
+        "Symfony",
+        "MailJet",
+        "API",
+        "V3",
+        "User",
+        "bundle"
+    ],
+    "authors": [
+        {
+            "name": "Titouan BENOIT",
+            "email": "titouan.benoit@gmx.fr",
+            "homepage": "https://github.com/Nightbr"
+        },
+        {
+            "name": "Mailjet API",
+            "email": "api@mailjet.com",
+            "homepage": "https://dev.mailjet.com/"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Mailjet\\MailjetBundle\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.6",
+        "mailjet/mailjet-apiv3-php": "^1.2",
+        "mailjet/mailjet-swiftmailer": "dev-upgradeToSwiftmailer6"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "~2@dev",
+        "symfony/symfony": "~4.0 | ~4.1"
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
