@@ -1,5 +1,5 @@
 {
-    "name": "mailjet4/mailjet-bundle4",
+    "name": "mailjet5/mailjet-bundle5",
     "description": "Symfony bundle for Mailjet API V3",
     "type": "symfony-bundle",
     "homepage": "https://github.com/mailjet/mailjetBundle",
@@ -30,14 +30,11 @@
         }
     },
     "require": {
-        "php": ">=5.4",
-        "mailjet/mailjet-apiv3-php": "^1.2@dev",
+        "php": ">=5.4dev",
+        "mailjet/mailjet-apiv3-php": "^1.2@dev"
 
     },
-    "require-dev": {
-        "phpspec/phpspec": "~2@dev",
-        
-    },
+
     "config": {
         "bin-dir": "bin"
     },
