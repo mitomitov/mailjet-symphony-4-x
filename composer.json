@@ -33,7 +33,7 @@
     "require": {
         "php": ">=5.4",
         "mailjet/mailjet-apiv3-php": "^1.2@dev",
-        "mailjet/mailjet-swiftmailer": "dev-develop as 1.1@dev"
+        "mailjet/mailjet-swiftmailer": "dev-develop"
     },
     "require-dev": {
         "phpspec/phpspec": "~2@dev",
