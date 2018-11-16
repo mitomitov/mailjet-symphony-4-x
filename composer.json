@@ -37,10 +37,9 @@
     },
     "require-dev": {
         "phpspec/phpspec": "~2@dev",
-        "symfony/symfony": "~4.0 | ~4.1"
+        "symfony/symfony": ">3.9@dev"
     },
     "config": {
         "bin-dir": "bin"
-    },
-	"minimum-stability": "dev"
+    }
 }
