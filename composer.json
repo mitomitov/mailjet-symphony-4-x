@@ -1,5 +1,5 @@
 {
-    "name": "mailjet2/mailjet-bundle2",
+    "name": "mailjet4/mailjet-bundle4",
     "description": "Symfony bundle for Mailjet API V3",
     "type": "symfony-bundle",
     "homepage": "https://github.com/mailjet/mailjetBundle",
@@ -41,6 +41,5 @@
     "config": {
         "bin-dir": "bin"
     },
-	"minimum-stability": "dev",
-    "prefer-stable": true
+	"minimum-stability": "dev"
 }
