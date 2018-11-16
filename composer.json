@@ -30,7 +30,7 @@
         }
     },
     "require": {
-        "php": ">=5.4dev",
+        "php": ">=5.4@dev",
         "mailjet/mailjet-apiv3-php": "^1.2@dev"
 
     },
