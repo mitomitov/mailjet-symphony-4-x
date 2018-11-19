@@ -29,15 +29,14 @@
             "Mailjet\\MailjetBundle\\": "src/"
         }
     },
-    "minimum-stability": "dev",
     "require": {
         "php": ">=5.4",
-        "mailjet/mailjet-apiv3-php": "^1.2@dev",
-        "mailjet/mailjet-swiftmailer": "dev-develop@dev"
+        "mailjet/mailjet-apiv3-php": "^1.2",
+        "mailjet/mailjet-swiftmailer": "develop"
     },
     "require-dev": {
         "phpspec/phpspec": "~2@dev",
-        "symfony/symfony": ">3.9@dev"
+        "symfony/symfony": ">3.9"
     },
     "config": {
         "bin-dir": "bin"
